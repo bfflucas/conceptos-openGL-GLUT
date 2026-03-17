@@ -1,7 +1,7 @@
 # Space Shooter - OpenGL y GLUT
 
 <p align="center">
-  Juego 2D desarrollado en C++ con OpenGL y GLUT, donde el jugador controla un avion espacial y debe destruir un ovni enemigo mientras administra energia, escudo, turbo y disparos.
+  Juego 2D desarrollado en C++ con OpenGL y GLUT, donde el jugador controla un avión espacial y debe destruir un ovni enemigo mientras administra energía, escudo, turbo y disparos.
 </p>
 
 <p align="center">
@@ -15,11 +15,11 @@
 
 ---
 
-## Descripcion
+## Descripción
 
 Juego 2D desarrollado en **C++** utilizando **OpenGL** y **GLUT**.
 
-El jugador controla un avion que puede desplazarse, girar, activar turbo, usar un escudo y disparar proyectiles para destruir un ovni enemigo.
+El jugador controla un avión que puede desplazarse, girar, activar turbo, usar un escudo y disparar proyectiles para destruir un ovni enemigo.
 
 El escenario incluye:
 
@@ -29,21 +29,21 @@ El escenario incluye:
 - Pista de despegue
 - Efectos visuales como llamas, escudo y disparos
 
-El objetivo es reducir la energia del enemigo a cero antes de perder toda la energia propia.
+El objetivo es reducir la energía del enemigo a cero antes de perder toda la energía propia.
 
 ---
 
-## Mecanicas del Juego
+## Mecánicas del Juego
 
-- Movimiento libre del avion dentro del mapa
-- Rotacion del avion
+- Movimiento libre del avión dentro del mapa
+- Rotación del avión
 - Disparo de proyectiles
-- Sistema de energia del jugador
-- Sistema de energia del enemigo
+- Sistema de energía del jugador
+- Sistema de energía del enemigo
 - Escudo activable
 - Turbo con efecto de llamas
-- Radar que muestra la posicion relativa del enemigo
-- Colisiones entre avion y enemigo
+- Radar que muestra la posición relativa del enemigo
+- Colisiones entre avión y enemigo
 - Estados de juego:
   - Tutorial
   - Jugando
@@ -54,7 +54,7 @@ El objetivo es reducir la energia del enemigo a cero antes de perder toda la ene
 
 ## Controles
 
-| Tecla | Accion |
+| Tecla | Acción |
 |------|--------|
 | W | Avanzar |
 | S | Retroceder |
@@ -70,18 +70,18 @@ El objetivo es reducir la energia del enemigo a cero antes de perder toda la ene
 
 ## Objetivo del Juego
 
-- Destruir al ovni enemigo reduciendo su energia a **0**
+- Destruir al ovni enemigo reduciendo su energía a **0**
 - Evitar colisiones directas con el enemigo
 - Administrar correctamente el uso de:
   - disparos
   - turbo
   - escudo
 
-El jugador pierde si su energia llega a **0**.
+El jugador pierde si su energía llega a **0**.
 
 ---
 
-## Caracteristicas Destacadas
+## Características Destacadas
 
 - Renderizado 2D con OpenGL
 - Uso de texturas `.ppm`
@@ -89,25 +89,25 @@ El jugador pierde si su energia llega a **0**.
 - Turbinas rotativas
 - Efecto visual de llamas al activar turbo
 - Escudo semitransparente
-- Panel en pantalla con tiempo y energia
+- Panel en pantalla con tiempo y energía
 - Colisiones y estados de victoria / derrota
 
 ---
 
-## Tecnologias Utilizadas
+## Tecnologías Utilizadas
 
 - C++
 - OpenGL
 - GLUT
 - GLU
 - Texturas PPM
-- Programacion estructurada y modular
+- Programación estructurada y modular
 
 ---
 
 ## Estructura General del Proyecto
 
-El juego esta dividido en distintas partes funcionales:
+El juego está dividido en distintas partes funcionales:
 
 ### Renderizado
 Se encarga de dibujar:
@@ -115,19 +115,19 @@ Se encarga de dibujar:
 - Fondo espacial
 - Planeta
 - Ovni enemigo
-- Avion
+- Avión
 - Pista
 - Radar
 - Proyectiles
 - Panel informativo
 - Escudo y llamas
 
-### Logica de Juego
+### Lógica de Juego
 Controla:
 
 - Estados del juego
-- Energia del jugador y del enemigo
-- Movimiento del avion
+- Energía del jugador y del enemigo
+- Movimiento del avión
 - Movimiento del ovni
 - Colisiones
 - Reinicio de partida
@@ -135,7 +135,7 @@ Controla:
 ### Entrada del Usuario
 Controla el teclado para:
 
-- mover el avion
+- mover el avión
 - disparar
 - activar turbo
 - activar escudo
@@ -147,15 +147,15 @@ Controla el teclado para:
 
 Durante la partida, el jugador debe perseguir y atacar al enemigo mientras se desplaza por el escenario.
 
-El ovni se mueve automaticamente y rebota dentro del mapa.
+El ovni se mueve automáticamente y rebota dentro del mapa.
 
 El radar ayuda a localizar al enemigo, mientras que el panel muestra:
 
 - tiempo transcurrido
-- energia del jugador
-- energia del enemigo
+- energía del jugador
+- energía del enemigo
 
-El turbo aumenta la velocidad del avion, y el escudo permite resistir choques sin perder energia.
+El turbo aumenta la velocidad del avión, y el escudo permite resistir choques sin perder energía.
 
 ---
 
@@ -182,10 +182,10 @@ El turbo aumenta la velocidad del avion, y el escudo permite resistir choques si
 
 ---
 
-## Como Ejecutar
+## Cómo Ejecutar
 
 1. Abrir el proyecto en **Visual Studio**
-2. Asegurarse de tener configurado **OpenGL / GLUT**
+2. El proyecto ya tiene configurado **OpenGL / GLUT** en 32 bits.
 3. Compilar el proyecto
 4. Ejecutar el programa
 
@@ -206,5 +206,5 @@ Estas texturas deben estar correctamente ubicadas para que el juego pueda cargar
 ## Autor
 
 Lucas Boffa  
-Tecnicatura en Diseno y Desarrollo de Videojuegos  
+Tecnicatura en Diseño y Desarrollo de Videojuegos  
 UNL
